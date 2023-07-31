@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="normal_head">20dp</dimen>
+    <dimen name="_8sdp">8dp</dimen>
+    <dimen name="txt_size_16">16sp</dimen>
+    <dimen name="common_text_size_14">14sp</dimen>
+    <dimen name="common_button_size_20">20sp</dimen>
+    <dimen name="common_heading_size_20">20sp</dimen>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Activity.ReviewActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mail" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/how_long_you_know_use_this_product"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:id="@+id/txtPeriod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:padding="@dimen/common_heading_size_20"
+        android:background="@color/purple_700"
+        android:text="@string/how_long_you_know_use_this_product"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/do_you_purchase_this_product_in_future"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:id="@+id/txtFutureSlection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:padding="@dimen/common_heading_size_20"
+        android:background="@color/purple_700"
+        android:text="@string/how_long_you_know_use_this_product"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/comment"
+        android:textColor="@color/purple_700"
+        android:textSize="14sp"
+         />
+
+    <TextView
+        android:id="@+id/txtContentBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="10dp"
+        android:padding="@dimen/common_heading_size_20"
+        android:background="@color/purple_700"
+        android:text="@string/how_long_you_know_use_this_product"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+         />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewProducts"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="30dp"
+        android:backgroundTint="@color/purple_700"
+        android:padding="7dp"
+        android:text="@string/view_products"
+        android:textColor="@color/white"
+        android:textSize="@dimen/common_button_size_20"
+        app:cornerRadius="@dimen/normal_head" />
+
+</LinearLayout>
+
+
+

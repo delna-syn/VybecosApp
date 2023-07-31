@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">VybecosApp</string>
+    <string name="vattiyoorkavu_youth_brigade_entrepreneurs_cooperative_society">Vattiyoorkavu Youth Brigade Entrepreneurs Cooperative Society</string>
+    <string name="login">Login</string>
+    <string name="login_head">SignIn</string>
+    <string name="register_head">SignUp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="already_having_account">Already having account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_btn">Login</string>
+    <string name="fill_this">Please Fill This</string>
+    <string name="email_correction">Inavalid Email</string>
+    <string name="phone_number_correction">Invalid Phone Number</string>
+    <string name="login_credential_error">Username and password doesn\'t match.Please check your login credentials</string>
+    <string name="password_validation">Password Must Contain Minimum 8 Characters</string>
+    <string name="products_list">Products List</string>
+    <string name="aluminium_tin_foil">Aluminium Tin Foil</string>
+    <string name="key_chain">Key Chain</string>
+    <string name="review_the_product">Review The Product</string>
+    <string name="submit">Submit</string>
+    <string name="share_review">Share Review >></string>
+    <string name="how_long_you_know_use_this_product">How long you know / use this product?</string>
+    <string name="do_you_purchase_this_product_in_future">Do you purchase this product in future?</string>
+    <string name="comment">Say something...</string>
+    <string name="view_products">View Products</string>
+    <string name="Rs">\u20B9</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="confirmation_submition_review">Are You Sure You Want To Submit The Review?</string>
+    <string name="view_review">View Review</string>
+</resources>
