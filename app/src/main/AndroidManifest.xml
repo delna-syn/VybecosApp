@@ -5,14 +5,14 @@
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
         android:theme="@style/Theme.VybecosApp"
-        tools:targetApi="31">
+        android:usesCleartextTraffic="true">
         <activity android:name=".Activity.ViewActivity"/>
         <activity android:name=".Activity.ReviewActivity"/>
         <activity android:name=".Activity.MainActivity">
